@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bob.angrybird" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TournamentList"
+            android:label="@string/title_activity_tournament_list" >
+        </activity>
+        <activity
+            android:name=".TournamentInfo"
+            android:label="@string/title_activity_tournament_info" >
+        </activity>
+        <activity
+            android:name=".AddNewTournament"
+            android:label="@string/title_activity_add_new_tournament" >
+        </activity>
+        <activity
+            android:name=".AddNextTournament"
+            android:label="@string/title_activity_add_next_tournament"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AddNewTeam"
+            android:label="@string/title_activity_add_new_team" >
+        </activity>
+        <activity
+            android:name=".ChooseIcon"
+            android:label="@string/title_activity_choose_icon" >
+        </activity>
+        <activity
+            android:name=".EditTeam"
+            android:label="@string/title_activity_edit_team" >
+        </activity>
+        <activity
+            android:name=".TournamentInfo_Started"
+            android:label="@string/title_activity_tournament_info__started" >
+        </activity>
+        <activity
+            android:name=".PlayListing"
+            android:label="@string/title_activity_play_listing" >
+        </activity>
+        <activity
+        android:name=".EditPlay"
+        android:label="@string/title_activity_edit_play" >
+    </activity>
+        <activity
+            android:name=".Rank"
+            android:label="@string/title_activity_rank_listing" >
+        </activity>
+    </application>
+
+</manifest>

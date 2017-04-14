@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Manager</string>
+
+    <string name="hello_world">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tournament_list">TournamentList</string>
+    <string name="title_activity_tournament_info">TournamentInfo</string>
+    <string name="title_activity_add_new_tournament">AddNewTournament</string>
+    <string name="title_activity_add_new_team">AddNewTeam</string>
+    <string name="title_activity_choose_icon">ChooseIcon</string>
+    <string name="title_activity_edit_team">EditTeam</string>
+    <string name="title_activity_tournament_info__started">TournamentInfo_Started</string>
+    <string name="title_activity_play_listing">PlayListing</string>
+    <string name="title_activity_rank_listing">Rank</string>
+    <string name="title_activity_edit_play">EditPlay</string>
+    <string name="title_activity_add_next_tournament">AddNextTournament</string>
+</resources>

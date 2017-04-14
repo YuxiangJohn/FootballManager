@@ -1,0 +1,86 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.bob.angrybird.TournamentInfo"
+    android:rowCount="7"
+    android:id="@+id/gridLayout"
+    android:columnCount="2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="startOnClick"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+    <TextView android:text="Type:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/tournamentType"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <TextView android:text="Name:" android:layout_width="200dp"
+    android:layout_height="30dp"
+    android:textSize="20dp"
+    android:id="@+id/tournamentName"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:onClick="deleteOnClick"
+        android:id="@+id/deleteButton"
+        android:layout_row="2"
+        android:layout_column="1" />
+
+
+
+        <Button
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Return"
+            android:id="@+id/button7"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:onClick="RetrunToListOnClick" />
+    <Button
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="add a team"
+        android:id="@+id/button8"
+        android:layout_row="3"
+        android:layout_column="1" />
+
+
+        <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:id="@+id/scrollView"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_columnSpan="2">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout"
+
+               >
+
+            </LinearLayout>
+        </ScrollView>
+
+
+</GridLayout>
